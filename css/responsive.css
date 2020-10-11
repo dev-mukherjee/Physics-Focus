@@ -1,0 +1,63 @@
+/************** Media Queries **********/
+
+
+@media (max-width: 768px){
+	.nav-item{
+		text-align: center!important;
+	}
+	.nav-link{
+		color: black;
+	}
+
+	.pricing, .happyclients, .contactus{
+		height: auto;
+        margin-top: 50px;
+        
+	}
+	
+    #student_performer{
+		color: black !important;
+		padding-top: 20px;
+	}
+
+	.project-works p{
+		text-align: center;
+	}
+
+	.contactus p{
+		padding: 0 50px;
+	}
+
+	.card-second{
+		transform: translateY(0px);
+		margin: 30px 0;
+	}
+
+	.footer-div{
+		margin: 30px 0;
+		text-align: center;
+	
+	}
+
+	.footer-div:nth-child(2){
+		text-align: left!important;
+	}
+	
+}
+
+@media(max-width: 500px){
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 100%;
+		
+	}
+}
+@media(max-width: 1000px){
+	.header .navbar .navbar-brand i{
+		visibility: hidden;
+	}
+}
