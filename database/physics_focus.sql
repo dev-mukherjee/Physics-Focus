@@ -38,8 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`) VALUES
-(2, 'PriyamDey@Physics.Focus_dev', 'Physics@PRIYAM_YOUTUBE-90_dev07'),
-(3, 'admin', 'admin');
+(1, 'admin', 'admin');
 
 -- --------------------------------------------------------
 
