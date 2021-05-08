@@ -1,8 +1,8 @@
 <?php 
 // DATABASE CREDENTIALS
 $server  = 'localhost';
-$serverUsername  = 'user';
-$serverPassword  = "";
+$serverUsername  = 'user'; //Your Username
+$serverPassword  = "";  //Your Password
 $dbName  = 'physics focus';
 // Connect with the database
 $con = mysqli_connect($server,$serverUsername,$serverPassword,$dbName);
